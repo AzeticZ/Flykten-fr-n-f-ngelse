@@ -54,14 +54,6 @@ namespace Flykten_från_fängelse
 
                     Console.WriteLine("När du kommer fram till bänken ser du att det finns en låst låda");
                     Console.WriteLine("ja/nej) vill du öppna lådan");
-
-                }
-                else if (val == "5")
-                {
-                    Console.WriteLine("Du kollar under mattan och hittar en nyckel");
-                    haveDeskkey = true;
-                }
-
                 if (val == "ja" && haveDeskkey == true || val == "Ja" && haveDeskkey == true)
                 {
                     Console.WriteLine("du öppnar lådan och hittar en nyckel");
