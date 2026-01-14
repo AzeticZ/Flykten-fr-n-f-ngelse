@@ -87,6 +87,7 @@ namespace Flykten_från_fängelse
                 {
                     Console.WriteLine("Du kollar under mattan och hittar en nyckel");
                     haveDeskkey = true;
+                    playerLastChoice = 5;
                 }
 
 
